@@ -1,3 +1,6 @@
+* {
+    font-family: Arial;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p {
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: #555;
+    color: #ffffff;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #666666;
+}
+
+.container {
+    padding: 0 1rem;
 }
